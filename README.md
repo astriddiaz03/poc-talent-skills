@@ -99,7 +99,7 @@ Disponibilidad: Días y horarios en que cada empleado está disponible para trab
 ---
 ## Pruebas
 
-Para facilitar las pruebas de la API, se incluye una **colección de Postman** que contiene los endpoints necesarios para ejecutar la asignación de tareas y la generación del reporte de asignaciones.
+Para facilitar las pruebas de la API, se incluye una **colección de Postman** en la carpeta /files que contiene los endpoints necesarios para ejecutar la asignación de tareas y la generación del reporte de asignaciones.
 
 ### Colección de Postman
 La colección de Postman contiene los siguientes endpoints:
