@@ -43,7 +43,6 @@ TALENT-TASK-API/
 ├── routes/
 │   ├── assignmentRoutes.js
 │   ├── employeeRoutes.js
-│   └── taskRoutes.js
 ├── services/
 │   ├── employeeAvailabilityServices.js
 │   └── taskServices.js
