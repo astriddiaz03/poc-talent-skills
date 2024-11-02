@@ -96,4 +96,31 @@ Tareas: Información sobre las tareas, incluyendo título, descripción.
 Skills: Listado de habilidades (programacion, diseño, documentación, pruebas).
 Disponibilidad: Días y horarios en que cada empleado está disponible para trabajar.
 ---
+## Pruebas
+
+Para facilitar las pruebas de la API, se incluye una **colección de Postman** que contiene los endpoints necesarios para ejecutar la asignación de tareas y la generación del reporte de asignaciones.
+
+### Colección de Postman
+La colección de Postman contiene los siguientes endpoints:
+
+1. **Asignación de Tareas**
+   - **Endpoint**: `POST api/assignments`
+   - **Descripción**: Este endpoint permite asignar tareas a los empleados disponibles, considerando su disponibilidad y habilidades. La asignación se realiza de manera óptima para maximizar el uso de los recursos de los empleados.
+   - **Parámetros**: 
+     - **Fecha para procesar las tareas** : Se puede especificar una fecha para la asignación.
+
+2. **Generación de Reporte de Asignación**
+   - **Endpoint**: `GET api/report/`
+   - **Descripción**: Este endpoint genera un reporte de las asignaciones realizadas para una fecha específica. Muestra cómo se distribuyeron las tareas entre los empleados, incluyendo detalles sobre el uso de tiempo y habilidades.
+   - **Parámetros**:
+     - **Fecha de Reporte** (requerido): Fecha para la cual se desea obtener el reporte de asignaciones.
+
+### Cómo Utilizar la Colección de Postman
+1. Importa la colección en Postman (archivo `.json` de la colección).
+2. Configura la URL base de la API en los entornos de Postman para apuntar al servidor donde se está ejecutando la API (por ejemplo, `http://localhost:3910` en desarrollo local).
+3. Ejecuta los endpoints en el orden deseado para probar la asignación de tareas y la generación de reportes.
+
+Esta colección de Postman te permitirá interactuar fácilmente con los endpoints clave de la API y verificar que el algoritmo de asignación y el reporte funcionen según lo esperado.
+
+---
 
