@@ -61,8 +61,8 @@ TALENT-TASK-API/
 
 Basado en el esquema ER, los modelos principales son:
 
-- **Employee**: Información sobre el empleado, incluyendo nombre, habilidades y disponibilidad.
-- **Task**: Representa la tarea con título, fecha, duración y habilidades requeridas.
+- **Employee**: Información sobre el empleado, incluyendo nombre, correo, telefono.
+- **Task**: Representa la tarea con título, fecha, duración.
 - **Assignment**: Asignaciones de tareas a empleados.
 - **Skill**: Conjunto de habilidades disponibles en el sistema.
 - **EmployeeAvailability**: Disponibilidad de los empleados en días y horas.
