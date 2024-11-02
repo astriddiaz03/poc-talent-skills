@@ -6,7 +6,6 @@ Talent-Task-API es una API desarrollada para gestionar la asignación óptima de
 - [Descripción](#descripción)
 - [Requisitos](#requisitos)
 - [Estructura del Proyecto](#estructura-del-proyecto)
-- [Instalación y Ejecución](#instalación-y-ejecución)
 - [Modelos y Colecciones](#modelos-y-colecciones)
 - [Endpoints](#endpoints)
 - [Consideraciones Técnicas](#consideraciones-técnicas)
@@ -49,7 +48,7 @@ TALENT-TASK-API/
 ├── docker-compose.yml
 └── index.js
 
-##Descripción de las Carpetas
+## Descripción de las Carpetas
 controllers/: Contiene los controladores de la API, encargados de manejar la lógica de negocio.
 database/: Archivo de conexión a la base de datos MongoDB.
 models/: Modelos Mongoose que representan las colecciones de MongoDB.
@@ -66,3 +65,8 @@ Assignment: Asignaciones de tareas a empleados.
 Skill: Conjunto de habilidades disponibles en el sistema.
 EmployeeAvailability: Disponibilidad de los empleados en días y horas.
 EmployeeSkills y TaskSkills: Relacionan empleados y tareas con sus habilidades
+
+## Endpoints
+Asignaciones
+POST /assignments: Asigna tareas a empleados de manera óptima.
+GET /assignments/report: Genera un reporte de asignación para una fecha específica.
