@@ -95,6 +95,7 @@ Empleados: Datos básicos de empleados como nombre, habilidades y detalles de co
 Tareas: Información sobre las tareas, incluyendo título, descripción.
 Skills: Listado de habilidades (programacion, diseño, documentación, pruebas).
 Disponibilidad: Días y horarios en que cada empleado está disponible para trabajar.
+
 ---
 ## Pruebas
 
