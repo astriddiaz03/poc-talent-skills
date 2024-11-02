@@ -86,6 +86,6 @@ En el archivo `connection.js` dentro de la carpeta `database/`, se establece la 
 
 ```plaintext
 MONGODB_URI=mongodb://localhost:27017/talent_skill
-
+```
 ---
 
