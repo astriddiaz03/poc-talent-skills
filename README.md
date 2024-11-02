@@ -49,9 +49,20 @@ TALENT-TASK-API/
 ├── docker-compose.yml
 └── index.js
 
-Descripción de las Carpetas
+##Descripción de las Carpetas
 controllers/: Contiene los controladores de la API, encargados de manejar la lógica de negocio.
 database/: Archivo de conexión a la base de datos MongoDB.
 models/: Modelos Mongoose que representan las colecciones de MongoDB.
 routes/: Define las rutas de la API para las distintas operaciones CRUD.
 services/: Servicios que encapsulan la lógica de acceso a datos y procesamiento específico.
+
+## Modelos y Colecciones
+
+Basado en el esquema ER, los modelos principales son:
+
+Employee: Información sobre el empleado, incluyendo nombre, habilidades y disponibilidad.
+Task: Representa la tarea con título, fecha, duración y habilidades requeridas.
+Assignment: Asignaciones de tareas a empleados.
+Skill: Conjunto de habilidades disponibles en el sistema.
+EmployeeAvailability: Disponibilidad de los empleados en días y horas.
+EmployeeSkills y TaskSkills: Relacionan empleados y tareas con sus habilidades
