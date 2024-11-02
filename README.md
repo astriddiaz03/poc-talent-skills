@@ -1,4 +1,3 @@
-# poc-talent-skills
 # Talent-Task-API
 
 Talent-Task-API es una API desarrollada para gestionar la asignación óptima de tareas a empleados en función de su disponibilidad y habilidades. Este proyecto fue desarrollado como parte de un desafío técnico, optimizando el uso de los recursos de los empleados mediante algoritmos de asignación.
