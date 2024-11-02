@@ -74,5 +74,18 @@ Basado en el esquema ER, los modelos principales son:
 - **POST /assignments**: Asigna tareas a empleados de manera óptima.
 - **GET /assignments/report**: Genera un reporte de asignación para una fecha específica.
 
+## Consideraciones Técnicas
+
+### Base de Datos y ORM
+- Para la persistencia de datos, esta API utiliza **MongoDB** como base de datos NoSQL.
+- **Mongoose** se emplea como el ODM (Object Data Modeling) para interactuar con MongoDB. Esto permite definir esquemas para cada colección, facilitando la validación de datos y la manipulación de documentos dentro de MongoDB.
+- Se ha configurado **Mongoose** para conectarse a una base de datos llamada `talent_skill`. Este nombre debe estar especificado en la configuración de conexión de MongoDB, y la base de datos se creará automáticamente al insertar el primer documento si no existe previamente.
+  
+### Configuración de la Conexión
+En el archivo `connection.js` dentro de la carpeta `database/`, se establece la conexión a MongoDB mediante **Mongoose**. Aquí, puedes especificar la URL de conexión en el archivo de configuración `.env`, por ejemplo:
+
+```plaintext
+MONGODB_URI=mongodb://localhost:27017/talent_skill
+
 ---
 
