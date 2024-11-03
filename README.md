@@ -83,7 +83,7 @@ Basado en el esquema ER, los modelos principales son:
 
 ## Consideraciones Técnicas
 
-### Base de Datos y ORM
+### Base de Datos
 - Para la persistencia de datos, esta API utiliza **MongoDB** como base de datos NoSQL.
 - **Mongoose** se emplea como el ODM (Object Data Modeling) para interactuar con MongoDB. Esto permite definir esquemas para cada colección, facilitando la validación de datos y la manipulación de documentos dentro de MongoDB.
 - Se ha configurado **Mongoose** para conectarse a una base de datos llamada `talent_skill`. Este nombre debe estar especificado en la configuración de conexión de MongoDB, y la base de datos se creará automáticamente al insertar el primer documento si no existe previamente.
@@ -119,6 +119,12 @@ Disponibilidad: Días y horarios en que cada empleado está disponible para trab
      - **Fecha de Reporte** (requerido): Fecha para la cual se desea obtener el reporte de asignaciones.
     
   Nota: Puedes Utilizar la colección postman que se encuentra en el repositorio.
+
+  ##Script de Carga de Datos de Prueba
+Este proyecto incluye un script de carga de datos que se ejecuta automáticamente al iniciar el contenedor de MongoDB. Este script se encarga de:
+
+Crear las colecciones necesarias en la base de datos.
+Cargar datos iniciales de prueba en cada una de las colecciones, lo cual facilita la prueba del sistema con datos predefinidos.
 
 ---
 
