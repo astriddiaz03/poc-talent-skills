@@ -64,7 +64,7 @@ TALENT-TASK-API/
 
 A continuación se muestra el esquema de las colecciones y relaciones en la base de datos para la API Talent-Task-API:
 
-![Arquitectura de la Base de Datos](images/arquitectura.png)
+![Arquitectura de la Base de Datos](images/challenges_talana.jpg)
 
 Basado en el esquema ER, los modelos principales son:
 
