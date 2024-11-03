@@ -1,26 +1,34 @@
 services:
   db:
-    image: mongo
+    image: mongo:4.4  # Imagen de MongoDB
     ports:
       - "27017:27017"
     volumes:
-      - ./data:/data
-    command: bash -c "/data/init-mongo.sh && docker-entrypoint.sh mongod"
+      - ./data:/data  # Mapea la carpeta `data` al contenedor
+    command: mongod  # Solo inicia MongoDB
     healthcheck:
-      test: ["CMD", "pgrep", "mongod"]
+      test: ["CMD", "mongo", "--host", "localhost", "--eval", "db.adminCommand('ping')"]
       interval: 10s
       timeout: 5s
       retries: 5
+
+  db_initializer:
+    image: mongo:4.4
+    depends_on:
+      db:
+        condition: service_healthy  # Espera a que 'db' esté saludable
+    volumes:
+      - ./data:/data
+    entrypoint: bash -c "/data/init-mongo.sh"  # Ejecuta el script de inicialización y luego se cierra
 
   app:
     build:
       context: .
       dockerfile: Dockerfile
     depends_on:
-      db:
-        condition: service_healthy  # Espera hasta que 'db' esté listo
+      - db
     environment:
       - MONGO_URI=mongodb://db:27017/talent_skill
-    command: sh -c "./wait-for-it.sh db:27017 -- npm start"
-
-
+    ports:
+      - "3000:3000"
+    command: npm start
