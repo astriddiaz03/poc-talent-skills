@@ -110,13 +110,13 @@ Disponibilidad: Días y horarios en que cada empleado está disponible para trab
    - **Endpoint**: `POST /api/assignments`
    - **Descripción**: Este endpoint permite asignar tareas a los empleados disponibles, considerando su disponibilidad y habilidades. La asignación se realiza de manera óptima para maximizar el uso de los recursos de los empleados.
    - **Parámetros**: 
-     - **Fecha para procesar las tareas** : Se puede especificar una fecha para la asignación.
+     - **Fecha para procesar las tareas** : Se puede especificar una fecha para la asignación. Si usa la data precargada del proyecto debe colocar 2024-11-10.
 
 2. **Generación de Reporte de Asignación**
    - **Endpoint**: `GET /api/report/`
    - **Descripción**: Este endpoint genera un reporte de las asignaciones realizadas para una fecha específica. Muestra cómo se distribuyeron las tareas entre los empleados, incluyendo detalles sobre el uso de tiempo y habilidades.
    - **Parámetros**:
-     - **Fecha de Reporte** (requerido): Fecha para la cual se desea obtener el reporte de asignaciones.
+     - **Fecha de Reporte** (requerido/fecha del dia que procesa la asignación): Fecha para la cual se desea obtener el reporte de asignaciones. 
     
   Nota: *Puedes Utilizar la colección postman que se encuentra en el repositorio*.
 
