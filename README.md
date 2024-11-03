@@ -104,7 +104,7 @@ Skills: Listado de habilidades (programacion, diseño, documentación, pruebas).
 Disponibilidad: Días y horarios en que cada empleado está disponible para trabajar.
 
 ---
-## Pruebas
+## Ejecutar Pruebas
 
 1. **Asignación de Tareas**
    - **Endpoint**: `POST /api/assignments`
