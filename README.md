@@ -56,8 +56,15 @@ TALENT-TASK-API/
 - **models/**: Modelos Mongoose que representan las colecciones de MongoDB.
 - **routes/**: Define las rutas de la API para las distintas operaciones CRUD.
 - **services/**: Servicios que encapsulan la lógica de acceso a datos y procesamiento específico.
+- 
 
 ## Modelos y Colecciones
+
+## Arquitectura
+
+A continuación se muestra el esquema de las colecciones y relaciones en la base de datos para la API Talent-Task-API:
+
+![Arquitectura de la Base de Datos](images/arquitectura.png)
 
 Basado en el esquema ER, los modelos principales son:
 
