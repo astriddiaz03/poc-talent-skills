@@ -1,0 +1,80 @@
+{
+	"info": {
+		"_postman_id": "747dcf04-6bf6-4569-83a7-7a9eb8abefc4",
+		"name": "talent_skill_api_test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21351467"
+	},
+	"item": [
+		{
+			"name": "AssignTask",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "date",
+							"value": "2024-11-10",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3910/api/assignament",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3910",
+					"path": [
+						"api",
+						"assignament"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AssignTaskReports",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "date",
+							"value": "2024-11-15",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/report?date=2024-11-02",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"report"
+					],
+					"query": [
+						{
+							"key": "date",
+							"value": "2024-11-02"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
