@@ -117,6 +117,8 @@ Disponibilidad: Días y horarios en que cada empleado está disponible para trab
    - **Descripción**: Este endpoint genera un reporte de las asignaciones realizadas para una fecha específica. Muestra cómo se distribuyeron las tareas entre los empleados, incluyendo detalles sobre el uso de tiempo y habilidades.
    - **Parámetros**:
      - **Fecha de Reporte** (requerido): Fecha para la cual se desea obtener el reporte de asignaciones.
+    
+  Nota: Puedes Utilizar la colección postman que se encuentra en el repositorio.
 
 ---
 
