@@ -124,8 +124,9 @@ Disponibilidad: Días y horarios en que cada empleado está disponible para trab
 
 Este proyecto incluye un script de carga de datos que se ejecuta automáticamente al iniciar el contenedor de MongoDB. Este script se encarga de:
 
-Crear las colecciones necesarias en la base de datos.
-Cargar datos iniciales de prueba en cada una de las colecciones, lo cual facilita la prueba del sistema con datos predefinidos.
+**Crear las colecciones necesarias en la base de datos.**
+
+**Cargar datos iniciales de prueba en cada una de las colecciones, lo cual facilita la prueba del sistema con datos predefinidos.**
 
 ---
 
