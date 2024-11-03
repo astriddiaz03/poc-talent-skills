@@ -89,7 +89,7 @@ MONGODB_URI=mongodb://localhost:27017/talent_skill
 ```
 
 ### Datos Iniciales para Poblar la Base de Datos
-En la carpeta files/ se encuentran archivos JSON con los datos de ejemplo para empleados, tareas y disponibilidad. Estos archivos pueden ser utilizados para poblar la base de datos talent_skill en un entorno local, permitiendo realizar pruebas y configuraciones iniciales. Los archivos JSON incluyen:
+En la carpeta data/ se encuentran archivos JSON con los datos de ejemplo para empleados, tareas y disponibilidad. Estos archivos pueden ser utilizados para poblar la base de datos talent_skill en un entorno local, permitiendo realizar pruebas y configuraciones iniciales. Los archivos JSON incluyen:
 
 Empleados: Datos básicos de empleados como nombre, habilidades y detalles de contacto.
 Tareas: Información sobre las tareas, incluyendo título, descripción.
