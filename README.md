@@ -10,7 +10,7 @@ Talent-Task-API es una API desarrollada para gestionar la asignación óptima de
 - [Modelos y Colecciones](#modelos-y-colecciones)
 - [Endpoints](#endpoints)
 - [Consideraciones Técnicas](#consideraciones-técnicas)
-- - [Base de Datos](#Base de Datos)
+- [Ejecutar Pruebas](#Ejecutar Pruebas)
     
 
 ## Descripción
