@@ -1,0 +1,80 @@
+[{
+  "_id": {
+    "$oid": "6724f5384e8a245c988a98e3"
+  },
+  "description": "Programación",
+  "category": "Tecnología",
+  "level": 5
+},
+{
+  "_id": {
+    "$oid": "6724f5384e8a245c988a98e4"
+  },
+  "description": "Diseño",
+  "category": "Creativo",
+  "level": 4
+},
+{
+  "_id": {
+    "$oid": "6724f5384e8a245c988a98e5"
+  },
+  "description": "Análisis",
+  "category": "Analítico",
+  "level": 3
+},
+{
+  "_id": {
+    "$oid": "6724f5384e8a245c988a98e6"
+  },
+  "description": "Coordinación",
+  "category": "Gestión",
+  "level": 4
+},
+{
+  "_id": {
+    "$oid": "6724f5384e8a245c988a98e7"
+  },
+  "description": "Gestión de Proyectos",
+  "category": "Gestión",
+  "level": 5
+},
+{
+  "_id": {
+    "$oid": "6724f5384e8a245c988a98e8"
+  },
+  "description": "Redacción Técnica",
+  "category": "Comunicación",
+  "level": 3
+},
+{
+  "_id": {
+    "$oid": "6724f5384e8a245c988a98e9"
+  },
+  "description": "Marketing Digital",
+  "category": "Marketing",
+  "level": 4
+},
+{
+  "_id": {
+    "$oid": "6724f5384e8a245c988a98ea"
+  },
+  "description": "Bases de Datos",
+  "category": "Tecnología",
+  "level": 4
+},
+{
+  "_id": {
+    "$oid": "6724f5384e8a245c988a98eb"
+  },
+  "description": "Testing",
+  "category": "Tecnología",
+  "level": 3
+},
+{
+  "_id": {
+    "$oid": "6724f5384e8a245c988a98ec"
+  },
+  "description": "Documentación",
+  "category": "Comunicación",
+  "level": 2
+}]

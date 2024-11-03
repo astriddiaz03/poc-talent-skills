@@ -1,0 +1,75 @@
+[{
+  "_id": {
+    "$oid": "6724fda04e8a245c988a9965"
+  },
+  "employee": {
+    "$oid": "6724f36a4e8a245c988a98ce"
+  },
+  "availableDate": 20241110,
+  "dayOfWeek": "Martes",
+  "startTime": "09:00",
+  "endTime": "17:00",
+  "isAvailable": true,
+  "availableHours": 8,
+  "notes": "Disponible para tareas de programación y diseño"
+},
+{
+  "_id": {
+    "$oid": "6724fda04e8a245c988a9966"
+  },
+  "employee": {
+    "$oid": "6724f36a4e8a245c988a98cf"
+  },
+  "availableDate": 20241110,
+  "dayOfWeek": "Lunes",
+  "startTime": "10:00",
+  "endTime": "18:00",
+  "isAvailable": true,
+  "availableHours": 8,
+  "notes": "Disponible para tareas de base de datos"
+},
+{
+  "_id": {
+    "$oid": "6724fda04e8a245c988a9967"
+  },
+  "employee": {
+    "$oid": "6724f36a4e8a245c988a98cf"
+  },
+  "availableDate": 20241110,
+  "dayOfWeek": "Miércoles",
+  "startTime": "10:00",
+  "endTime": "18:00",
+  "isAvailable": true,
+  "availableHours": 8,
+  "notes": "Disponible para tareas de base de datos"
+},
+{
+  "_id": {
+    "$oid": "6724fda04e8a245c988a9968"
+  },
+  "employee": {
+    "$oid": "6724f36a4e8a245c988a98d0"
+  },
+  "availableDate": 20241110,
+  "dayOfWeek": "Jueves",
+  "startTime": "08:00",
+  "endTime": "16:00",
+  "isAvailable": true,
+  "availableHours": 8,
+  "notes": "Disponible para tareas de redacción técnica"
+},
+{
+  "_id": {
+    "$oid": "672693426d74df9a7fa6c471"
+  },
+  "employee": {
+    "$oid": "6724f36a4e8a245c988a98cc"
+  },
+  "availableDate": 20241110,
+  "dayOfWeek": "Jueves",
+  "startTime": "10:00",
+  "endTime": "18:00",
+  "isAvailable": true,
+  "availableHours": 8,
+  "notes": "Disponible para tareas pruebas"
+}]

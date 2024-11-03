@@ -1,0 +1,77 @@
+[{
+  "_id": {
+    "$oid": "6724fb2d4e8a245c988a992e"
+  },
+  "employee": {
+    "$oid": "6724f36a4e8a245c988a98ce"
+  },
+  "skill": {
+    "$oid": "6724f5384e8a245c988a98e3"
+  }
+},
+{
+  "_id": {
+    "$oid": "6724fb2d4e8a245c988a992f"
+  },
+  "employee": {
+    "$oid": "6724f36a4e8a245c988a98ce"
+  },
+  "skill": {
+    "$oid": "6724f5384e8a245c988a98e4"
+  }
+},
+{
+  "_id": {
+    "$oid": "6724fb2d4e8a245c988a9930"
+  },
+  "employee": {
+    "$oid": "6724f36a4e8a245c988a98cf"
+  },
+  "skill": {
+    "$oid": "6724f5384e8a245c988a98ea"
+  }
+},
+{
+  "_id": {
+    "$oid": "6724fb2d4e8a245c988a9931"
+  },
+  "employee": {
+    "$oid": "6724f36a4e8a245c988a98ce"
+  },
+  "skill": {
+    "$oid": "6724f5384e8a245c988a98e3"
+  }
+},
+{
+  "_id": {
+    "$oid": "6724fb2d4e8a245c988a9932"
+  },
+  "employee": {
+    "$oid": "6724f36a4e8a245c988a98d0"
+  },
+  "skill": {
+    "$oid": "6724f5384e8a245c988a98e4"
+  }
+},
+{
+  "_id": {
+    "$oid": "6724fb2d4e8a245c988a9933"
+  },
+  "employee": {
+    "$oid": "6724f36a4e8a245c988a98d0"
+  },
+  "skill": {
+    "$oid": "6724f5384e8a245c988a98ec"
+  }
+},
+{
+  "_id": {
+    "$oid": "6726939c6d74df9a7fa6c474"
+  },
+  "employee": {
+    "$oid": "6724f36a4e8a245c988a98cc"
+  },
+  "skill": {
+    "$oid": "6724f5384e8a245c988a98eb"
+  }
+}]

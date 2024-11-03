@@ -1,0 +1,70 @@
+[{
+  "_id": {
+    "$oid": "67254b324e8a245c988a9976"
+  },
+  "title": "Desarrollar API de Tareas",
+  "taskDate": 20241110,
+  "taskEstimationHH": 5,
+  "description": "Desarrollar el endpoint para gestionar la asignación de tareas a empleados.",
+  "priority": 1,
+  "complexityLevel": 3,
+  "urgency": 2,
+  "status": "Pendiente",
+  "deadline": "2024-11-20"
+},
+{
+  "_id": {
+    "$oid": "67254b324e8a245c988a9977"
+  },
+  "title": "Implementar Frontend",
+  "taskDate": 20241110,
+  "taskEstimationHH": 5,
+  "description": "Diseñar e implementar la interfaz gráfica para la gestión de tareas.",
+  "priority": 2,
+  "complexityLevel": 4,
+  "urgency": 3,
+  "status": "Pendiente",
+  "deadline": "2024-11-22"
+},
+{
+  "_id": {
+    "$oid": "67254b324e8a245c988a9978"
+  },
+  "title": "Configurar Base de Datos",
+  "taskDate": 20241110,
+  "taskEstimationHH": 3,
+  "description": "Configurar la base de datos en MongoDB y optimizar índices.",
+  "priority": 1,
+  "complexityLevel": 2,
+  "urgency": 1,
+  "status": "Pendiente",
+  "deadline": 20241118
+},
+{
+  "_id": {
+    "$oid": "67254b324e8a245c988a9979"
+  },
+  "title": "Crear Documentación de API",
+  "taskDate": 20241110,
+  "taskEstimationHH": 2,
+  "description": "Escribir la documentación de uso de la API para el equipo.",
+  "priority": 3,
+  "complexityLevel": 1,
+  "urgency": 2,
+  "status": "Pendiente",
+  "deadline": "2024-11-25"
+},
+{
+  "_id": {
+    "$oid": "67254b324e8a245c988a997a"
+  },
+  "title": "Pruebas de Carga",
+  "taskDate": 20241110,
+  "taskEstimationHH": 4,
+  "description": "Realizar pruebas de carga en la API para verificar la escalabilidad.",
+  "priority": 1,
+  "complexityLevel": 5,
+  "urgency": 3,
+  "status": "Pendiente",
+  "deadline": "2024-11-27"
+}]

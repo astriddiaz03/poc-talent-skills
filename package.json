@@ -1,0 +1,23 @@
+{
+  "name": "talent-task-api",
+  "version": "1.0.0",
+  "description": "API REST with  NodeJS, Mongo, Express for task assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js"
+  },
+  "author": "Astrid Díaz",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "moment": "^2.30.1",
+    "mongoose": "^8.8.0",
+    "mongoose-pagination": "^1.0.0",
+    "validator": "^13.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}

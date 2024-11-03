@@ -1,0 +1,55 @@
+[{
+  "_id": {
+    "$oid": "6724f36a4e8a245c988a98cc"
+  },
+  "name": "Juan",
+  "lastName": "Pérez",
+  "email": "juan.perez@example.com",
+  "phone": "+123456789",
+  "location": "Santiago",
+  "levelSkill": 5
+},
+{
+  "_id": {
+    "$oid": "6724f36a4e8a245c988a98cd"
+  },
+  "name": "María",
+  "lastName": "Gómez",
+  "email": "maria.gomez@example.com",
+  "phone": "+987654321",
+  "location": "Valparaíso",
+  "levelSkill": 4
+},
+{
+  "_id": {
+    "$oid": "6724f36a4e8a245c988a98ce"
+  },
+  "name": "Carlos",
+  "lastName": "Ramírez",
+  "email": "carlos.ramirez@example.com",
+  "phone": "+567123456",
+  "location": "Concepción",
+  "levelSkill": 3
+},
+{
+  "_id": {
+    "$oid": "6724f36a4e8a245c988a98cf"
+  },
+  "name": "Ana",
+  "lastName": "López",
+  "email": "ana.lopez@example.com",
+  "phone": "+321987654",
+  "location": "La Serena",
+  "levelSkill": 6
+},
+{
+  "_id": {
+    "$oid": "6724f36a4e8a245c988a98d0"
+  },
+  "name": "Luis",
+  "lastName": "Martínez",
+  "email": "luis.martinez@example.com",
+  "phone": "+654987321",
+  "location": "Antofagasta",
+  "levelSkill": 4
+}]

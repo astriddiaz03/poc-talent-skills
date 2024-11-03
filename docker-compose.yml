@@ -1,0 +1,26 @@
+services:
+  db:
+    image: mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./data:/data
+    command: bash -c "/data/init-mongo.sh && docker-entrypoint.sh mongod"
+    healthcheck:
+      test: ["CMD", "pgrep", "mongod"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on:
+      db:
+        condition: service_healthy  # Espera hasta que 'db' esté listo
+    environment:
+      - MONGO_URI=mongodb://db:27017/talent_skill
+    command: sh -c "./wait-for-it.sh db:27017 -- npm start"
+
+
