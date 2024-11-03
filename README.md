@@ -118,7 +118,7 @@ Disponibilidad: Días y horarios en que cada empleado está disponible para trab
    - **Parámetros**:
      - **Fecha de Reporte** (requerido): Fecha para la cual se desea obtener el reporte de asignaciones.
     
-  Nota: Puedes Utilizar la colección postman que se encuentra en el repositorio.
+  Nota: *Puedes Utilizar la colección postman que se encuentra en el repositorio*.
 
 ## Script de Carga de Datos de Prueba
 
