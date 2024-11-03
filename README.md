@@ -120,7 +120,7 @@ Disponibilidad: Días y horarios en que cada empleado está disponible para trab
     
   Nota: Puedes Utilizar la colección postman que se encuentra en el repositorio.
 
-  ##Script de Carga de Datos de Prueba
+##Script de Carga de Datos de Prueba
 Este proyecto incluye un script de carga de datos que se ejecuta automáticamente al iniciar el contenedor de MongoDB. Este script se encarga de:
 
 Crear las colecciones necesarias en la base de datos.
