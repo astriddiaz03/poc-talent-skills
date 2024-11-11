@@ -10,6 +10,8 @@ Talent-Task-API es una API desarrollada para gestionar la asignación óptima de
 - [Modelos y Colecciones](#modelos-y-colecciones)
 - [Endpoints](#endpoints)
 - [Consideraciones Técnicas](#consideraciones-técnicas)
+- [Ejecutar Pruebas](#Ejecutar-Pruebas)
+    
 
 ## Descripción
 Esta API permite gestionar empleados y asignarles tareas de acuerdo a su disponibilidad y habilidades. Incluye:
@@ -83,7 +85,7 @@ Basado en el esquema ER, los modelos principales son:
 
 ## Consideraciones Técnicas
 
-### Base de Datos y ORM
+### Base de Datos
 - Para la persistencia de datos, esta API utiliza **MongoDB** como base de datos NoSQL.
 - **Mongoose** se emplea como el ODM (Object Data Modeling) para interactuar con MongoDB. Esto permite definir esquemas para cada colección, facilitando la validación de datos y la manipulación de documentos dentro de MongoDB.
 - Se ha configurado **Mongoose** para conectarse a una base de datos llamada `talent_skill`. Este nombre debe estar especificado en la configuración de conexión de MongoDB, y la base de datos se creará automáticamente al insertar el primer documento si no existe previamente.
@@ -96,7 +98,7 @@ MONGODB_URI=mongodb://localhost:27017/talent_skill
 ```
 
 ### Datos Iniciales para Poblar la Base de Datos
-En la carpeta data/ se encuentran archivos JSON con los datos de ejemplo para empleados, tareas y disponibilidad. Estos archivos pueden ser utilizados para poblar la base de datos talent_skill en un entorno local, permitiendo realizar pruebas y configuraciones iniciales. Los archivos JSON incluyen:
+En la carpeta /data se encuentran archivos JSON con los datos de ejemplo para empleados, tareas y disponibilidad. Estos archivos pueden ser utilizados para poblar la base de datos talent_skill en un entorno local, permitiendo realizar pruebas y configuraciones iniciales. Los archivos JSON incluyen:
 
 Empleados: Datos básicos de empleados como nombre, habilidades y detalles de contacto.
 Tareas: Información sobre las tareas, incluyendo título, descripción.
@@ -104,19 +106,29 @@ Skills: Listado de habilidades (programacion, diseño, documentación, pruebas).
 Disponibilidad: Días y horarios en que cada empleado está disponible para trabajar.
 
 ---
-## Pruebas
+## Ejecutar Pruebas
 
 1. **Asignación de Tareas**
-   - **Endpoint**: `POST api/assignments`
+   - **Endpoint**: `POST /api/assignments`
    - **Descripción**: Este endpoint permite asignar tareas a los empleados disponibles, considerando su disponibilidad y habilidades. La asignación se realiza de manera óptima para maximizar el uso de los recursos de los empleados.
    - **Parámetros**: 
-     - **Fecha para procesar las tareas** : Se puede especificar una fecha para la asignación.
+     - **Fecha para procesar las tareas** : Se puede especificar una fecha para la asignación. Si usa la data precargada del proyecto debe colocar 2024-11-10.
 
 2. **Generación de Reporte de Asignación**
-   - **Endpoint**: `GET api/report/`
+   - **Endpoint**: `GET /api/report/`
    - **Descripción**: Este endpoint genera un reporte de las asignaciones realizadas para una fecha específica. Muestra cómo se distribuyeron las tareas entre los empleados, incluyendo detalles sobre el uso de tiempo y habilidades.
    - **Parámetros**:
-     - **Fecha de Reporte** (requerido): Fecha para la cual se desea obtener el reporte de asignaciones.
+     - **Fecha de Reporte** (requerido/fecha del dia que procesa la asignación): Fecha para la cual se desea obtener el reporte de asignaciones. 
+    
+  Nota: *Puedes Utilizar la colección postman que se encuentra en el repositorio*.
+
+## Script de Carga de Datos de Prueba
+
+Este proyecto incluye un script de carga de datos que se ejecuta automáticamente al iniciar el contenedor de MongoDB. Este script se encarga de:
+
+**Crear las colecciones necesarias en la base de datos.**
+
+**Cargar datos iniciales de prueba en cada una de las colecciones, lo cual facilita la prueba del sistema con datos predefinidos.**
 
 ---
 
